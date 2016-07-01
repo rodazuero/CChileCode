@@ -1,5 +1,5 @@
 # Parents and Chidlren. A collective model of Household Behavior and Child Development
-This repository includes the files necessary to replicate the results of the paper ``Parents and Chidlren. A Collective Model of Household Behavior and Child Development". The C++ code is run using (GCC) 4.4.7 compiler. The following environmental variables need to be defined in order to run the code properly:
+This repository includes the files necessary to replicate the results of the paper ``Parents and Chidlren. A Collective Model of Household Behavior and Child Development". The C++ code is run using (GCC) 4.4.7 compiler. The Makefile was designed for a CentOS 6.8 operating system (Linux). The following environmental variables need to be defined in the Makefile in order to run the code properly:
 
 1. HOME. Home directory.  The directory should include the code and the csv used as input. 
 2. OMP_NUM_THREADS. Number of threads used in parallel when estimating the model. Default is set to 32. It is not necessary to run threads in parallel in order to estimate the model but it certainly makes it faster. 
